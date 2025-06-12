@@ -1,0 +1,4 @@
+config BR2_PACKAGE_HIREDIS_PATCH
+    bool
+    default y
+    depends on BR2_PACKAGE_HIREDIS
